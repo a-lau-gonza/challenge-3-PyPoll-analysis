@@ -21,13 +21,16 @@ This election audit analysis is a test on our skills in Python to execute code t
     * __Diane DeGette__ convincingly won the election by taking *73.8%* of all votes from all three counties, equaling a whopping *272,892*. 
 
 ## Election Audit Summary
-With the results of this test regarding 
+With the results of this test regarding sorting through, tallying all the data provided, and producing an easy to read final results document within seconds, it should prove that using the developed code would provide a more *efficient and accurate* system to count the votes.
+
+Though VBA is quite useful, the usage of Python has a simpler code that can run directly from the Python file. And with the use of VS Code, it also provides an easy place to replace any code for any future elections, even if we add more candidates and counties. The baseline is set for numerous future elections. 
+
+If the need arises to add more counties, it can be done by simply adding another county to the list; the same goes for any new candidates. As all of the calculations for percentage and counting is done automatically and doesn't matter who or where the votes are from, as long as they are labeled consistently with the existing columns.
 
 
+### Troubles I Had With Python
+I had a few issues pertaining to the final text file of the *Election Results*. My initial run of the code had an extra "Denver" spliced in right in front of the formatting for the "Largest County Turnout". It turns out that I had implemented the incorrect text file write in the code and I managed to fix it by deleting the incorrect one and finding out where I went wrong and what changes it made. Eventually, I figured it out and I figured out the logic of it.
 
-
-## Analysis
-### Stocks of 2017
 
 ![All Stocks (2017)](Write-Up_Resources/All_Stocks_2017.png)
   
