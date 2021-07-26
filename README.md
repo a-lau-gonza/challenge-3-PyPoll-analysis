@@ -20,6 +20,8 @@ This election audit analysis is a test on our skills in Python to execute code t
 * Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
     * __Diane DeGette__ convincingly won the election by taking *73.8%* of all votes from all three counties, equaling a whopping *272,892*. 
 
+![Election Results](Write-Up_Resources/election_results.png)
+
 ## Election Audit Summary
 With the results of this test regarding sorting through, tallying all the data provided, and producing an easy to read final results document within seconds, it should prove that using the developed code would provide a more *efficient and accurate* system to count the votes.
 
@@ -29,27 +31,14 @@ If the need arises to add more counties, it can be done by simply adding another
 
 
 ### Troubles I Had With Python
-I had a few issues pertaining to the final text file of the *Election Results*. My initial run of the code had an extra "Denver" spliced in right in front of the formatting for the "Largest County Turnout". It turns out that I had implemented the incorrect text file write in the code and I managed to fix it by deleting the incorrect one and finding out where I went wrong and what changes it made. Eventually, I figured it out and I figured out the logic of it.
+I had a few issues pertaining to the final text file of the *Election Results*. My initial run of the code had an extra "Denver" spliced in right in front of the formatting for the "Largest County Turnout".
 
+![An Extra Denver](Write-Up_Resources/extra_denver.png)
 
-![All Stocks (2017)](Write-Up_Resources/All_Stocks_2017.png)
-  
-### Stocks of 2018
- 
-![All Stocks (2018)](Write-Up_Resources/All_Stocks_2018.png)
+![Denver Solved](Write-Up_Resources/election_results.png)
 
-![VBA Challenge 2017](Resources/VBA_Challenge_2017.png)
-![VBA Challenge 2017 (Refactored)](Resources/VBA_Challenge_2017_Refactored.png)
-![VBA Challenge 2018](Resources/VBA_Challenge_2018.png)
-![VBA Challenge 2018 (Refactored)](Resources/VBA_Challenge_2018_Refactored.png)
+It turns out that I had implemented the incorrect text file write in the code and I managed to fix it by deleting the incorrect one and finding out where I went wrong and what changes it made. Eventually, I figured it out and I figured out the logic of it.
 
-## Challenges and Difficulties Encountered
-### (Difficulty)
+![The Wrong Variable](Write-Up_Resources/getting_txt_wrong.png)
 
-  
-![Expected Array](Write-Up_Resources/compile_error-expected_array.png)
-![Expected Array, again](Write-Up_Resources/compile_error2.png)
-
-
-![The Elusive (#)](Write-Up_Resources/constant_expression.png)
-![Fixing everything](Write-Up_Resources/fixing_everything.png)
+![The Write Variable](Write-Up_Resources/getting_txt_write.png)
